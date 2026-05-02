@@ -439,8 +439,3 @@ code, pre {
   .cv-date { text-align: left; }
 }
 
-.navbar-nav {
-  display: inline-flex !important;
-  gap: 1rem;
-}
-
