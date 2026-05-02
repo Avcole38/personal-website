@@ -1,0 +1,46 @@
+---
+title: "Averrie Coleman, B.S."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r photo, out.width="200px", fig.align="center"}
+knitr::include_graphics("Headshot.JPG")
+```
+
+**MPH Candidate · Health Policy & Management · Data Science Certificate**
+
+Acole38@emory.edu · Atlanta, Georgia
+
+---
+
+# About Me
+
+I am a second-year MPH candidate in Health Policy and Management at Emory University's Rollins School of Public Health, with a certificate in Data Science. My work sits at the crossroads of health systems, policy analysis, and applied data science. I have a deep commitment to equity centered approaches that center communities most impacted by systemic barriers to care.
+
+Before Emory, I completed a B.S. in Public Health at Xavier University of Louisiana with a minor in Political Science. Since then I've worked across nonprofit, government, and clinical settings, from designing community health surveys with the Partnership for Southern Equity, to building performance management systems at the Georgia Department of Public Health, to tracking patient outcomes at Iris Breast Cancer Rehabilitation.
+
+I believe that when data analysis is done will tells a story that it should be used in service of the people it represents.
+
+---
+
+# At a Glance
+
+| | |
+|---|---|
+| *Program* | Master of Public Health, Emory Rollins School of Public Health |
+| *Concentration*| Health Policy & Management + Data Science Certificate |
+| *Current Role* | Patient Outcomes Coordinator, Iris Breast Cancer Rehabilitation |
+| *Background* | B.S. Public Health, Xavier University of Louisiana |
+| *Interests* | Health equity, ACA policy, clinical data systems, community-based research |
+| *Tools* | R, SQL, SAS, GIS, Docker, TreeAge, Excel |
+
+---
+
+# Research Interests
+
+My academic and professional work centers on a few connected questions: How do insurance and financing structures shape who gets care — and who doesn't? How can data systems be built to actually improve equity rather than reinforce existing disparities? And what does it look like to translate complex policy and evidence into something that communities and decision-makers can actually use?
+
+These questions have led me to work spanning ACA Marketplace enrollment policy, applied machine learning for clinical outcomes, geographic health disparities, and the political economy of public health financing.

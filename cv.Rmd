@@ -1,0 +1,129 @@
+---
+title: "CV"
+---
+
+ **Averrie Coleman, B.S.**
+**MPH Candidate · Health Policy & Management · Data Science Certificate**
+
+Acole38@emory.edu · (425) 516-2050 · Atlanta, Georgia
+
+---
+
+# Education
+
+**Master of Public Health — Health Policy and Management** · 2024 – Present  
+Emory University, Rollins School of Public Health · Atlanta, GA  
+Certificate in Data Science · Cumulative GPA: 3.34
+
+**Bachelor of Science — Public Health** · 2020 – 2024  
+Xavier University of Louisiana · New Orleans, LA  
+Minor in Political Science
+
+---
+
+# Professional Experience
+
+**Patient Outcomes Coordinator** · December 2025 – Present  
+Iris Breast Cancer Rehabilitation · Sandy Springs, GA
+
+- Track and analyze clinical and program data to monitor patient outcomes, service access, and utilization across underserved and outreach populations
+- Prepare monthly and quarterly leadership reports on outcomes, access trends, and program performance; support grant applications with quantified impact data
+- Monitor KPIs including patient visits, functional improvement, and pain reduction; benchmark against internal goals and industry standards
+- Support data collection for the Atlanta Initiative and Georgia Outreach Initiative; conduct grant research to quantify program reach
+
+**Vice President of Wellness and Inclusion** · May 2025 – Present  
+Graduate Student Government Association, Emory University · Atlanta, GA
+
+- Lead wellness and inclusion initiatives across multiple campuses serving 7,000+ graduate students
+- Collaborate with Student Health Services, Counseling & Psychological Services, and campus partners to design and implement programs
+
+**Performance Management System Intern** · June – November 2025  
+Georgia Department of Public Health · Atlanta, GA
+
+- Built a department-wide KPI database integrating metrics from the State Health Improvement Plan, Governor's Strategic Plan, and Office of Planning and Budget
+- Monitored performance indicators supporting accreditation efforts; enhanced data consistency and accessibility across multiple divisions
+
+**Fellow** · August 2024 – June 2025  
+Partnership for Southern Equity · Atlanta, GA
+
+- Designed and conducted a community health survey assessing barriers to healthcare utilization among Georgia residents
+- Analyzed HRSA data in R to report findings and develop resources addressing identified gaps
+
+**RAIB Member (Review, Inform, Advise Board)** · May 2023 – August 2024  
+Louisiana Department of Health · New Orleans, LA
+
+- Evaluated qualitative data from community focus groups to advocate for equity-centered public health policies
+
+**Program Administrator** · May 2023 – August 2024  
+Eden Centers (Nonprofit) · New Orleans, LA
+
+- Promoted from intern to manage $10K+ in donations and coordinate staff and interns
+- Provided trauma-informed care for 20+ women survivors of human trafficking
+
+---
+
+# Graduate Coursework
+
+**Fall 2024**
+
+| Course | Title |
+|--------|-------|
+| BIOS 500/500L | Statistical Methods I + Lab |
+| HPM 501 | Public Health & Health Resource Allocation |
+| HPM 502 | Introduction to Health Care Management |
+| HPM 510 | Financial & Managerial Accounting for Health Care |
+| HPM 521 | Introduction to Health Economics |
+
+**Spring 2025**
+
+| Course | Title |
+|--------|-------|
+| BIOS 544 | Introduction to R |
+| EPI 504 | Fundamentals of Epidemiology |
+| HPM 522 | Economic Evaluation of Health Care Programs |
+| HPM 523 | Public Financing & Health Care Systems |
+| HPM 561 | Fundamentals of Public Health Law |
+| HPM 592 | Case Studies in Public Mental Health |
+
+**Fall 2025**
+
+| Course | Title |
+|--------|-------|
+| BSHES 556 | Foundations: Addressing Racism as a Public Health Issue |
+| DATA 530 | Introduction to GIS |
+| DATA 550 | Data Science Toolkit |
+| DATA 556 | Data Visualizations in Public Health |
+| GH 500 | Critical Issues in Global Health |
+| HPM 576 | Health Policy Analysis |
+
+**Spring 2026 (In Progress)**
+
+| Course | Title |
+|--------|-------|
+| BSHES 500 | Behavioral & Social Sciences in Public Health |
+| DATA 521 | Database Development for Public Health |
+| DATA 534 | Applied Machine Learning |
+| DATA 555 | Current Topics in Data Science |
+| EH 500 | Perspectives in Environmental Health |
+| HPM 575 | Capstone: Advanced Policy Analysis |
+
+---
+
+# Skills & Tools
+
+**Technical:** R, SQL, SAS, GIS/ArcGIS, Docker, GitHub, TreeAge, Excel, Microsoft Office, Dashboard Creation
+
+**Analytical:** Data analysis, healthcare data analysis, policy analysis, program evaluation, performance measurement, cost-effectiveness analysis, cost-benefit analysis, survey design
+
+**Professional:** Accreditation, quality improvement, collaboration, trauma-informed care
+
+---
+
+# Certificates
+
+**Certificate in Data Science** · In Progress  
+Emory University, Rollins School of Public Health
+
+---
+
+[Download Resume (PDF)](ColemanResume_Harvard.pdf)
