@@ -439,5 +439,14 @@ code, pre {
   .cv-date { text-align: left; }
 }
 
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.navbar-collapse {
+  display: flex !important;
+}
+
 
 
