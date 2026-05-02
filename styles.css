@@ -438,4 +438,11 @@ code, pre {
   .cv-entry { grid-template-columns: 1fr; }
   .cv-date { text-align: left; }
 }
+.navbar-collapse.collapse {
+  display: block !important;
+  height: auto !important;
+}
 
+.navbar-toggle {
+  display: none !important;
+}
