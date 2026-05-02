@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CV</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Averrie Coleman</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">About</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CV</h1>
+
+</div>
+
+
+<p><strong>Averrie Coleman, B.S.</strong> <strong>MPH Candidate · Health
+Policy &amp; Management · Data Science Certificate</strong></p>
+<p><a href="mailto:Acole38@emory.edu"
+class="email">Acole38@emory.edu</a> · (425) 516-2050 · Atlanta,
+Georgia</p>
+<hr />
+<div id="education" class="section level1">
+<h1>Education</h1>
+<p><strong>Master of Public Health — Health Policy and
+Management</strong> · 2024 – Present<br />
+Emory University, Rollins School of Public Health · Atlanta, GA<br />
+Certificate in Data Science · Cumulative GPA: 3.34</p>
+<p><strong>Bachelor of Science — Public Health</strong> · 2020 –
+2024<br />
+Xavier University of Louisiana · New Orleans, LA<br />
+Minor in Political Science</p>
+<hr />
+</div>
+<div id="professional-experience" class="section level1">
+<h1>Professional Experience</h1>
+<p><strong>Patient Outcomes Coordinator</strong> · December 2025 –
+Present<br />
+Iris Breast Cancer Rehabilitation · Sandy Springs, GA</p>
+<ul>
+<li>Track and analyze clinical and program data to monitor patient
+outcomes, service access, and utilization across underserved and
+outreach populations</li>
+<li>Prepare monthly and quarterly leadership reports on outcomes, access
+trends, and program performance; support grant applications with
+quantified impact data</li>
+<li>Monitor KPIs including patient visits, functional improvement, and
+pain reduction; benchmark against internal goals and industry
+standards</li>
+<li>Support data collection for the Atlanta Initiative and Georgia
+Outreach Initiative; conduct grant research to quantify program
+reach</li>
+</ul>
+<p><strong>Vice President of Wellness and Inclusion</strong> · May 2025
+– Present<br />
+Graduate Student Government Association, Emory University · Atlanta,
+GA</p>
+<ul>
+<li>Lead wellness and inclusion initiatives across multiple campuses
+serving 7,000+ graduate students</li>
+<li>Collaborate with Student Health Services, Counseling &amp;
+Psychological Services, and campus partners to design and implement
+programs</li>
+</ul>
+<p><strong>Performance Management System Intern</strong> · June –
+November 2025<br />
+Georgia Department of Public Health · Atlanta, GA</p>
+<ul>
+<li>Built a department-wide KPI database integrating metrics from the
+State Health Improvement Plan, Governor’s Strategic Plan, and Office of
+Planning and Budget</li>
+<li>Monitored performance indicators supporting accreditation efforts;
+enhanced data consistency and accessibility across multiple
+divisions</li>
+</ul>
+<p><strong>Fellow</strong> · August 2024 – June 2025<br />
+Partnership for Southern Equity · Atlanta, GA</p>
+<ul>
+<li>Designed and conducted a community health survey assessing barriers
+to healthcare utilization among Georgia residents</li>
+<li>Analyzed HRSA data in R to report findings and develop resources
+addressing identified gaps</li>
+</ul>
+<p><strong>RAIB Member (Review, Inform, Advise Board)</strong> · May
+2023 – August 2024<br />
+Louisiana Department of Health · New Orleans, LA</p>
+<ul>
+<li>Evaluated qualitative data from community focus groups to advocate
+for equity-centered public health policies</li>
+</ul>
+<p><strong>Program Administrator</strong> · May 2023 – August 2024<br />
+Eden Centers (Nonprofit) · New Orleans, LA</p>
+<ul>
+<li>Promoted from intern to manage $10K+ in donations and coordinate
+staff and interns</li>
+<li>Provided trauma-informed care for 20+ women survivors of human
+trafficking</li>
+</ul>
+<hr />
+</div>
+<div id="graduate-coursework" class="section level1">
+<h1>Graduate Coursework</h1>
+<p><strong>Fall 2024</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Course</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BIOS 500/500L</td>
+<td>Statistical Methods I + Lab</td>
+</tr>
+<tr class="even">
+<td>HPM 501</td>
+<td>Public Health &amp; Health Resource Allocation</td>
+</tr>
+<tr class="odd">
+<td>HPM 502</td>
+<td>Introduction to Health Care Management</td>
+</tr>
+<tr class="even">
+<td>HPM 510</td>
+<td>Financial &amp; Managerial Accounting for Health Care</td>
+</tr>
+<tr class="odd">
+<td>HPM 521</td>
+<td>Introduction to Health Economics</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Spring 2025</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Course</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BIOS 544</td>
+<td>Introduction to R</td>
+</tr>
+<tr class="even">
+<td>EPI 504</td>
+<td>Fundamentals of Epidemiology</td>
+</tr>
+<tr class="odd">
+<td>HPM 522</td>
+<td>Economic Evaluation of Health Care Programs</td>
+</tr>
+<tr class="even">
+<td>HPM 523</td>
+<td>Public Financing &amp; Health Care Systems</td>
+</tr>
+<tr class="odd">
+<td>HPM 561</td>
+<td>Fundamentals of Public Health Law</td>
+</tr>
+<tr class="even">
+<td>HPM 592</td>
+<td>Case Studies in Public Mental Health</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fall 2025</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Course</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BSHES 556</td>
+<td>Foundations: Addressing Racism as a Public Health Issue</td>
+</tr>
+<tr class="even">
+<td>DATA 530</td>
+<td>Introduction to GIS</td>
+</tr>
+<tr class="odd">
+<td>DATA 550</td>
+<td>Data Science Toolkit</td>
+</tr>
+<tr class="even">
+<td>DATA 556</td>
+<td>Data Visualizations in Public Health</td>
+</tr>
+<tr class="odd">
+<td>GH 500</td>
+<td>Critical Issues in Global Health</td>
+</tr>
+<tr class="even">
+<td>HPM 576</td>
+<td>Health Policy Analysis</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Spring 2026 (In Progress)</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Course</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BSHES 500</td>
+<td>Behavioral &amp; Social Sciences in Public Health</td>
+</tr>
+<tr class="even">
+<td>DATA 521</td>
+<td>Database Development for Public Health</td>
+</tr>
+<tr class="odd">
+<td>DATA 534</td>
+<td>Applied Machine Learning</td>
+</tr>
+<tr class="even">
+<td>DATA 555</td>
+<td>Current Topics in Data Science</td>
+</tr>
+<tr class="odd">
+<td>EH 500</td>
+<td>Perspectives in Environmental Health</td>
+</tr>
+<tr class="even">
+<td>HPM 575</td>
+<td>Capstone: Advanced Policy Analysis</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="skills-tools" class="section level1">
+<h1>Skills &amp; Tools</h1>
+<p><strong>Technical:</strong> R, SQL, SAS, GIS/ArcGIS, Docker, GitHub,
+TreeAge, Excel, Microsoft Office, Dashboard Creation</p>
+<p><strong>Analytical:</strong> Data analysis, healthcare data analysis,
+policy analysis, program evaluation, performance measurement,
+cost-effectiveness analysis, cost-benefit analysis, survey design</p>
+<p><strong>Professional:</strong> Accreditation, quality improvement,
+collaboration, trauma-informed care</p>
+<hr />
+</div>
+<div id="certificates" class="section level1">
+<h1>Certificates</h1>
+<p><strong>Certificate in Data Science</strong> · In Progress<br />
+Emory University, Rollins School of Public Health</p>
+<hr />
+<p><a href="ColemanResume_Harvard.pdf">Download Resume (PDF)</a></p>
+</div>
+
+<div class="site-footer">
+  <p>Averrie Coleman &nbsp;·&nbsp; MPH Candidate, Emory Rollins School of Public Health &nbsp;·&nbsp; 
+  <a href="mailto:Acole38@emory.edu">Acole38@emory.edu</a></p>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
