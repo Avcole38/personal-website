@@ -440,12 +440,7 @@ code, pre {
 }
 
 .navbar-nav {
-  flex-direction: row !important;
+  display: inline-flex !important;
+  gap: 1rem;
 }
-
-.navbar-nav > li {
-  float: none !important;
-  display: inline-block !important;
-}
-
 
